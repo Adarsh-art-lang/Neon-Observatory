@@ -2,7 +2,7 @@ type TrainingViewProps = {
   projectId: string;
 };
 
-export default function TrainingView({ projectId }: TrainingViewProps) {
+export default function TrainingView({ projectId: _projectId }: TrainingViewProps) {
   return (
     <div className="w-full h-full min-h-[800px]">
       <iframe 
