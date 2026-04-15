@@ -51,7 +51,7 @@ export default function Dashboard() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {/* Card 1 */}
-            <div className="glass-card rounded-xl p-6 flex flex-col hover:translate-y-[-4px] transition-transform">
+            <Link to="/projects/1" className="glass-card rounded-xl p-6 flex flex-col hover:translate-y-[-4px] transition-transform text-left">
               <div className="flex justify-between items-center mb-6">
                 <span className="text-[9px] px-3 py-1 bg-green-50 text-green-600 border border-green-100 rounded-full font-label uppercase font-bold tracking-wider">Completed</span>
                 <span className="material-symbols-outlined text-on-surface-variant text-base cursor-pointer">more_vert</span>
@@ -76,10 +76,10 @@ export default function Dashboard() {
                   </div>
                 </div>
               </div>
-            </div>
+            </Link>
 
             {/* Card 2 */}
-            <div className="glass-card rounded-xl p-6 flex flex-col hover:translate-y-[-4px] transition-transform">
+            <Link to="/projects/2" className="glass-card rounded-xl p-6 flex flex-col hover:translate-y-[-4px] transition-transform text-left">
               <div className="flex justify-between items-center mb-6">
                 <span className="text-[9px] px-3 py-1 bg-red-50 text-red-600 border border-red-100 rounded-full font-label uppercase font-bold tracking-wider">Failed</span>
                 <span className="material-symbols-outlined text-on-surface-variant text-base cursor-pointer">more_vert</span>
@@ -104,10 +104,10 @@ export default function Dashboard() {
                   </div>
                 </div>
               </div>
-            </div>
+            </Link>
 
             {/* Card 3 */}
-            <div className="glass-card rounded-xl p-6 flex flex-col hover:translate-y-[-4px] transition-transform">
+            <Link to="/projects/3" className="glass-card rounded-xl p-6 flex flex-col hover:translate-y-[-4px] transition-transform text-left">
               <div className="flex justify-between items-center mb-6">
                 <span className="text-[9px] px-3 py-1 bg-secondary/10 text-secondary border border-secondary/20 rounded-full font-label uppercase font-bold tracking-wider">Running</span>
                 <span className="material-symbols-outlined text-on-surface-variant text-base cursor-pointer">more_vert</span>
@@ -132,10 +132,10 @@ export default function Dashboard() {
                   </div>
                 </div>
               </div>
-            </div>
+            </Link>
 
             {/* Card 4 */}
-            <div className="glass-card rounded-xl p-6 flex flex-col hover:translate-y-[-4px] transition-transform">
+            <Link to="/projects/4" className="glass-card rounded-xl p-6 flex flex-col hover:translate-y-[-4px] transition-transform text-left">
               <div className="flex justify-between items-center mb-6">
                 <span className="text-[9px] px-3 py-1 bg-green-50 text-green-600 border border-green-100 rounded-full font-label uppercase font-bold tracking-wider">Completed</span>
                 <span className="material-symbols-outlined text-on-surface-variant text-base cursor-pointer">more_vert</span>
@@ -160,7 +160,7 @@ export default function Dashboard() {
                   </div>
                 </div>
               </div>
-            </div>
+            </Link>
 
           </div>
         </section>
